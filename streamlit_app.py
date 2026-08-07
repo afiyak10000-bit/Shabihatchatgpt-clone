@@ -2,7 +2,7 @@ import streamlit as st
 from groq import Groq
 
 st.set_page_config(page_title="Shabi GPT", page_icon="🤖")
-st.title("🤖 Shabi GPT Clone")
+st.title("🤖 Shabi GPT Clone ")
 
 api_key = st.text_input("Paste your Groq API Key here", type="password")
 if not api_key:
